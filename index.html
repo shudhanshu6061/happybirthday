@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff3f2" />
+  <title>For My Favourite Person ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="grain"></div>
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="intro-screen" id="introScreen">
+      <div class="intro-card">
+        <div class="tiny-sparkle">✦ &nbsp; A LITTLE SOMETHING FOR YOU &nbsp; ✦</div>
+        <div class="envelope-wrap" id="envelope" role="button" tabindex="0" aria-label="Open your birthday letter">
+          <div class="envelope">
+            <div class="envelope-back"></div>
+            <div class="letter-peek"><span>For you, my love</span><b>♡</b></div>
+            <div class="envelope-flap"></div>
+            <div class="envelope-front"></div>
+            <div class="seal">♡</div>
+          </div>
+        </div>
+        <p class="intro-script">Pssst... this is just for you.</p>
+        <h1>For Sweetie Jii,<br><em>with all my love.</em></h1>
+        <p class="intro-copy">For my Sweetie Jii — 28 October, your special day. 💌</p>
+        <button class="primary-btn" id="openLetterBtn">Open your letter <span>↗</span></button>
+        <p class="tap-hint">made with love, just for you ♡</p>
+      </div>
+    </section>
+
+    <div id="mainSite" class="site hidden">
+      <nav class="topbar">
+        <a class="brand" href="#home">little things <span>♡</span></a>
+        <button class="music-btn" id="musicBtn" aria-label="Toggle music">♫ <span id="musicLabel">Music
+            off</span></button>
+      </nav>
+
+      <section class="hero section" id="home">
+        <div class="hero-sticker sticker-one">my person<br>forever ♡</div>
+        <div class="hero-sticker sticker-two">made with<br>love &amp; hugs</div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="dot"></span> 28 OCTOBER · TODAY IS ALL ABOUT YOU</p>
+          <h2>Happy Birthday,<br><em>Sweetie Jii.</em></h2>
+          <p class="hero-sub">Aaj ka din utna hi khoobsurat ho,<br>jitni khoobsurat aap meri duniya banati ho. ❤️</p>
+          <a class="primary-btn link-btn" href="#memories">Let's make a memory <span>♡</span></a>
+          <div class="hero-note">to the girl who feels like home <span>↘</span></div>
+        </div>
+        <div class="hero-photo-frame tilt">
+          <div class="photo-placeholder hero-photo" data-photo="assets/photo1.jpeg">
+            <span class="photo-icon">♡</span><span>Add your favourite photo</span>
+          </div>
+          <div class="tape"></div>
+          <div class="photo-caption">my favourite view ✿</div>
+        </div>
+        <div class="hero-doodle">✳</div>
+      </section>
+
+      <section class="memory-section section" id="memories">
+        <div class="section-heading">
+          <p class="eyebrow">OUR LITTLE UNIVERSE</p>
+          <h2>Little moments,<br><em>big feelings.</em></h2>
+          <p>Some memories are photographs. ♡</p>
+        </div>
+        <div class="memory-grid">
+          <button class="memory-card card-a" data-photo="assets/photo2.jpeg"
+            data-caption="That smile I could look at forever.">
+            <div class="photo-placeholder"><span class="photo-icon">♡</span><span>Add photo 02</span></div>
+            <span class="hand-caption">that smile!!</span><span class="card-number">01 / US</span>
+          </button>
+          <button class="memory-card card-b" data-photo="assets/photo3.jpeg"
+            data-caption="One of my favourite days, because it was with you.">
+            <div class="photo-placeholder"><span class="photo-icon">✿</span><span>Add photo 03</span></div>
+            <span class="hand-caption">a day to keep</span><span class="card-number">02 / US</span>
+          </button>
+          <button class="memory-card card-c" data-photo="assets/photo4.jpeg"
+            data-caption="My kind of perfect is any moment with you.">
+            <div class="photo-placeholder"><span class="photo-icon">♡</span><span>Add photo 04</span></div>
+            <span class="hand-caption">my kind of perfect</span><span class="card-number">03 / US</span>
+          </button>
+        </div>
+        <!-- <p class="section-footnote">Tip: apni photos ko <code>assets/photos/</code> folder mein rakho. Instructions README mein hain.</p> -->
+      </section>
+
+      <section class="reasons-section section" id="reasons">
+        <div class="section-heading">
+          <p class="eyebrow">A FEW THINGS I ADORE</p>
+          <h2>Reasons I love you<br><em>(as if I could count)</em></h2>
+          <p>Card par tap kariye. Chhoti si baat, dil se. 💗</p>
+        </div>
+        <div class="reason-grid">
+          <button class="reason-card" type="button" aria-label="Reason: Your smile" data-front="Your smile"
+            data-back="Aapki smile meri favourite notification se bhi zyada khushi deti hai.">
+            <div class="reason-card-inner">
+              <div class="reason-card-front">
+                <span class="reason-heart">♡</span><strong>Your smile</strong><small>tap to open ↗</small>
+              </div>
+              <div class="reason-card-back">
+                <span class="reason-heart">♥</span><strong>Aapki smile mujhe sabse zyada khushi
+                  deti hai. Always Smile</strong><small>tap to turn back ↻</small>
+              </div>
+            </div>
+          </button>
+          <button class="reason-card" type="button" aria-label="Reason: Your heart" data-front="Your heart"
+            data-back="Aap jis pyaar aur care se chhoti-chhoti baaton ka khayal rakhti ho, woh rare hai.">
+            <div class="reason-card-inner">
+              <div class="reason-card-front">
+                <span class="reason-heart">♡</span><strong>Your heart</strong><small>tap to open ↗</small>
+              </div>
+              <div class="reason-card-back">
+                <span class="reason-heart">♥</span><strong>Aap jis pyaar se chhoti-chhoti baaton ka khayal rakhti hai
+                  na, woh aapko aur bhi zyada special bana deta hai.❤️🫶🏻
+                </strong><small>tap to turn back ↻</small>
+              </div>
+            </div>
+          </button>
+          <button class="reason-card" type="button" aria-label="Reason: Your presence" data-front="Your presence"
+            data-back="Aap paas ho ya door, aapki presence mere din ko thoda aur achha bana deti hai.">
+            <div class="reason-card-inner">
+              <div class="reason-card-front">
+                <span class="reason-heart">♡</span><strong>Your presence</strong><small>tap to open ↗</small>
+              </div>
+              <div class="reason-card-back">
+                <span class="reason-heart">♥</span><strong>Aap paas ho ya door, aapki presence mere din ko thoda aur
+                  achha bana deti hai.</strong><small>tap to turn back ↻</small>
+              </div>
+            </div>
+          </button>
+          <button class="reason-card" type="button" aria-label="Reason: Just being you" data-front="Just being you"
+            data-back="Aapko kuch prove karne ki zaroorat nahi. Aap jaisi ho, waise hi bahut special ho.">
+            <div class="reason-card-inner">
+              <div class="reason-card-front">
+                <span class="reason-heart">♡</span><strong>Just being you</strong><small>tap to open ↗</small>
+              </div>
+              <div class="reason-card-back">
+                <span class="reason-heart">♥</span><strong>Aapko kuch prove karne ki zaroorat nahi. Aap jaisi ho, waise
+                  hi bahut special ho.</strong><small>tap to turn back ↻</small>
+              </div>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="letter-section section" id="letter">
+        <div class="letter-decoration">♡</div>
+        <div class="letter-paper">
+          <p class="eyebrow">OPEN WHEN YOU NEED A HUG</p>
+          <h2>A letter for<br><em>my favourite human.</em></h2>
+          <div class="letter-copy" id="letterCopy">
+            <p>Happy birthday, Sweetie Jii. ❤️</p>
+            <p>Aapko shayad hamesha words mein samjha na paaun ki aap meri life mein kitni special hai. </p>
+            <p>Thank you meri life ka itna pyaara hissa banne ke liye. Aapki hasi, aapki baatein, aapka care karna — yeh
+              sab mere liye bahut precious hai. Main wish karta hoon ki aapke dreams poore hon, aapko har woh khushi
+              mile jo aap deserve karti hai, aur aap hamesha apni beautiful smile ke saath shine karti raho.</p>
+            <p>Har din perfect ho, yeh zaroori nahi. Bas itna chahta hoon ki life ke har chapter mein aapko pyaar, peace
+              aur reasons to smile milte rahein. Aur jab kabhi din thoda heavy ho, toh yaad rakhiyega, someone is always
+              cheering for you, so so much.</p>
+            <p>You're not just a part of my life. You hold one of the loveliest parts of my heart. Thank you for being
+              you. I love youuu, Sweetie Jii, more than these little words can ever explain. 🫶</p>
+            <p class="letter-signoff">Forever rooting for you,<br><span>your person ♡</span></p>
+          </div>
+          <button class="text-btn" id="readToggle">Read the letter again ↻</button>
+        </div>
+      </section>
+
+      <section class="surprise-section section" id="surprise">
+        <div class="surprise-sparkle">✦</div>
+        <p class="eyebrow">ONE LAST LITTLE SURPRISE</p>
+        <h2>There's one more<br><em>thing, birthday girl.</em></h2>
+        <p class="surprise-sub">Ready? Dil se banaya hai. ♡</p>
+        <button class="gift-button" id="giftButton" aria-label="Open your gift">
+          <span class="gift-bow">∞</span><span class="gift-lid"></span><span class="gift-box"></span><span
+            class="gift-ribbon"></span>
+        </button>
+        <p class="gift-hint">tap the gift 🎁</p>
+        <div class="final-message hidden" id="finalMessage">
+          <div class="final-heart">♥</div>
+          <h3>My wish for you, Sweetie Jii</h3>
+          <p>May this year bring you soft mornings, loud laughter, peaceful nights, beautiful surprises, and a thousand
+            reasons to feel proud of yourself.</p>
+          <p class="hinglish-final">Aur kuchuu puchuu, kabhi bhi khud ko kam mat samajhiyega. Aap bahut precious hai.
+            Aaj bhi,
+            kal bhi, hamesha. ❤️</p>
+          <div class="confetti-line">♡ ✦ ♡ ✿ ♡ ✦ ♡</div>
+          <button class="primary-btn" id="celebrateBtn">Celebrate again! 🎉</button>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>made with all my love <span>♥</span></div>
+        <p>for you, today and all the days after.</p>
+        <a href="#home">back to the top ↑</a>
+      </footer>
+    </div>
+  </main>
+
+  <div class="photo-modal hidden" id="photoModal" role="dialog" aria-modal="true" aria-label="Memory photo">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal-photo photo-placeholder" id="modalPhoto"><span class="photo-icon">♡</span></div>
+    <p id="modalCaption"></p>
+  </div>
+
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/Kaafi%20Hai%20Na.mp3" type="audio/mpeg">
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+
+</html>
